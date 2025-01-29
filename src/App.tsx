@@ -5,7 +5,8 @@ import {
   RedCheckbox, OrangeCheckbox,
   RedRadio,
   OrangeRadio,
-  RedAlert, OrangeAlert, AmberAlert, YellowAlert, LimeAlert, GreenAlert, EmeraldAlert, TealAlert, CyanAlert, SkyAlert, BlueAlert, IndigoAlert, VioletAlert, PurpleAlert, FuchsiaAlert, PinkAlert, RoseAlert, SlateAlert, GrayAlert, ZincAlert, NeutralAlert, StoneAlert
+  RedAlert, OrangeAlert, AmberAlert, YellowAlert, LimeAlert, GreenAlert, EmeraldAlert, TealAlert, CyanAlert, SkyAlert, BlueAlert, IndigoAlert, VioletAlert, PurpleAlert, FuchsiaAlert, PinkAlert, RoseAlert, SlateAlert, GrayAlert, ZincAlert, NeutralAlert, StoneAlert,
+  RedBadge, OrangeBadge, AmberBadge, YellowBadge, LimeBadge, GreenBadge, EmeraldBadge, TealBadge, CyanBadge, SkyBadge, BlueBadge, IndigoBadge, VioletBadge, PurpleBadge, FuchsiaBadge, PinkBadge, RoseBadge, SlateBadge, GrayBadge, ZincBadge, NeutralBadge, StoneBadge
 } from "./components";
 
 export default function App() {
@@ -37,8 +38,31 @@ export default function App() {
           <NeutralAlert classes="col-span-2">I'm a Neutral Alert</NeutralAlert>
           <StoneAlert classes="col-span-2">I'm a Stone Alert</StoneAlert>
         </div>
-        <div className="grid grid-cols-4 gap-4">
-          
+        <div className="grid grid-cols-4 gap-4 mb-8">
+          <div className="col-span-4">
+            <RedBadge classes="mr-2 mb-2">Red Badge</RedBadge>
+            <OrangeBadge classes="mr-2 mb-2">Orange Badge</OrangeBadge>
+            <AmberBadge classes="mr-2 mb-2">Amber Badge</AmberBadge>
+            <YellowBadge classes="mr-2 mb-2">Yellow Badge</YellowBadge>
+            <LimeBadge classes="mr-2 mb-2">Lime Badge</LimeBadge>
+            <GreenBadge classes="mr-2 mb-2">Green Badge</GreenBadge>
+            <EmeraldBadge classes="mr-2 mb-2">Emerald Badge</EmeraldBadge>
+            <TealBadge classes="mr-2 mb-2">Teal Badge</TealBadge>
+            <CyanBadge classes="mr-2 mb-2">Cyan Badge</CyanBadge>
+            <SkyBadge classes="mr-2 mb-2">Sky Badge</SkyBadge>
+            <BlueBadge classes="mr-2 mb-2">Blue Badge</BlueBadge>
+            <IndigoBadge classes="mr-2 mb-2">Indigo Badge</IndigoBadge>
+            <VioletBadge classes="mr-2 mb-2">Violet Badge</VioletBadge>
+            <PurpleBadge classes="mr-2 mb-2">Purple Badge</PurpleBadge>
+            <FuchsiaBadge classes="mr-2 mb-2">Fuchsia Badge</FuchsiaBadge>
+            <PinkBadge classes="mr-2 mb-2">Pink Badge</PinkBadge>
+            <RoseBadge classes="mr-2 mb-2">Rose Badge</RoseBadge>
+            <SlateBadge classes="mr-2 mb-2">Slate Badge</SlateBadge>
+            <GrayBadge classes="mr-2 mb-2">Gray Badge</GrayBadge>
+            <ZincBadge classes="mr-2 mb-2">Zinc Badge</ZincBadge>
+            <NeutralBadge classes="mr-2 mb-2">Neutral Badge</NeutralBadge>
+            <StoneBadge classes="mr-2 mb-2">Stone Badge</StoneBadge>
+          </div>
         </div>
         <div className="grid grid-cols-4 gap-4 mb-8">
           <RedButton>I'm a Red Button</RedButton>

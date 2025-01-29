@@ -13,6 +13,20 @@ export {
 } from './Alerts'
 
 export {
+  RedBadge, OrangeBadge,
+  AmberBadge, YellowBadge,
+  LimeBadge, GreenBadge,
+  EmeraldBadge, TealBadge,
+  CyanBadge, SkyBadge,
+  BlueBadge, IndigoBadge,
+  VioletBadge, PurpleBadge,
+  FuchsiaBadge, PinkBadge,
+  RoseBadge, SlateBadge,
+  GrayBadge, ZincBadge,
+  NeutralBadge, StoneBadge
+} from './Badges'
+
+export {
   RedButton, OrangeButton,
   AmberButton, YellowButton,
   LimeButton, GreenButton,
