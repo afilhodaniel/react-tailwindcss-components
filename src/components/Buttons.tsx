@@ -3,19 +3,18 @@ function CreateButton({
 }: {
   className: React.ComponentProps<"button">["className"]
 }) {
-  return function VariantButton({
-    onClick,
+  return ({
     classes,
-    children
+    children,
+    ...props
   }: {
-    onClick?: React.ComponentProps<"button">["onClick"],
     classes?: React.ComponentProps<"button">["className"],
     children: React.ReactNode
-  }) {
+  } & React.ComponentProps<"button">) => {
     return (
       <button
-        className={`transition-all duration-300 cursor-pointer py-2 px-3 rounded text-slate-100 ${className} ${classes}`}
-        onClick={onClick}
+        className={`transition-all duration-300 cursor-pointer py-2 px-3 rounded shadow text-slate-100 ${className} ${classes}`}
+        {...props}
       >
         {children}
       </button>
