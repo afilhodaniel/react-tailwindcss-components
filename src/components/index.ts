@@ -1,4 +1,18 @@
 export {
+  RedAlert, OrangeAlert,
+  AmberAlert, YellowAlert,
+  LimeAlert, GreenAlert,
+  EmeraldAlert, TealAlert,
+  CyanAlert, SkyAlert,
+  BlueAlert, IndigoAlert,
+  VioletAlert, PurpleAlert,
+  FuchsiaAlert, PinkAlert,
+  RoseAlert, SlateAlert,
+  GrayAlert, ZincAlert,
+  NeutralAlert, StoneAlert
+} from './Alerts'
+
+export {
   RedButton, OrangeButton,
   AmberButton, YellowButton,
   LimeButton, GreenButton,

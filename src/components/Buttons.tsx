@@ -13,7 +13,7 @@ function CreateButton({
   } & React.ComponentProps<"button">) => {
     return (
       <button
-        className={`transition-all duration-300 cursor-pointer py-2 px-3 rounded shadow text-slate-100 ${className} ${classes}`}
+        className={`transition-all duration-300 cursor-pointer py-2 px-3 rounded shadow-md text-slate-100 ${className} ${classes}`}
         {...props}
       >
         {children}

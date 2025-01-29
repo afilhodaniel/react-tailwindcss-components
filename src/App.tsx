@@ -5,6 +5,7 @@ import {
   RedCheckbox, OrangeCheckbox,
   RedRadio,
   OrangeRadio,
+  RedAlert, OrangeAlert, AmberAlert, YellowAlert, LimeAlert, GreenAlert, EmeraldAlert, TealAlert, CyanAlert, SkyAlert, BlueAlert, IndigoAlert, VioletAlert, PurpleAlert, FuchsiaAlert, PinkAlert, RoseAlert, SlateAlert, GrayAlert, ZincAlert, NeutralAlert, StoneAlert
 } from "./components";
 
 export default function App() {
@@ -12,6 +13,33 @@ export default function App() {
     <div className="grid grid-cols-8 gap-4">
       <div className="col-span-2"></div>
       <div className="col-span-6">
+        <div className="grid grid-cols-4 gap-4 mb-8">
+          <RedAlert classes="col-span-2">I'm a Red Alert</RedAlert>
+          <OrangeAlert classes="col-span-2">I'm a Orange Alert</OrangeAlert>
+          <AmberAlert classes="col-span-2">I'm a Amber Alert</AmberAlert>
+          <YellowAlert classes="col-span-2">I'm a Yellow Alert</YellowAlert>
+          <LimeAlert classes="col-span-2">I'm a Lime Alert</LimeAlert>
+          <GreenAlert classes="col-span-2">I'm a Green Alert</GreenAlert>
+          <EmeraldAlert classes="col-span-2">I'm a Emeral Alert</EmeraldAlert>
+          <TealAlert classes="col-span-2">I'm a Teal Alert</TealAlert>
+          <CyanAlert classes="col-span-2">I'm a Cyan Alert</CyanAlert>
+          <SkyAlert classes="col-span-2">I'm a Sky Alert</SkyAlert>
+          <BlueAlert classes="col-span-2">I'm a Blue Alert</BlueAlert>
+          <IndigoAlert classes="col-span-2">I'm a Indigo Alert</IndigoAlert>
+          <VioletAlert classes="col-span-2">I'm a Violet Alert</VioletAlert>
+          <PurpleAlert classes="col-span-2">I'm a Purple Alert</PurpleAlert>
+          <FuchsiaAlert classes="col-span-2">I'm a Fuchsia Alert</FuchsiaAlert>
+          <PinkAlert classes="col-span-2">I'm a Pink Alert</PinkAlert>
+          <RoseAlert classes="col-span-2">I'm a Rose Alert</RoseAlert>
+          <SlateAlert classes="col-span-2">I'm a Slate Alert</SlateAlert>
+          <GrayAlert classes="col-span-2">I'm a Gray Alert</GrayAlert>
+          <ZincAlert classes="col-span-2">I'm a Zinc Alert</ZincAlert>
+          <NeutralAlert classes="col-span-2">I'm a Neutral Alert</NeutralAlert>
+          <StoneAlert classes="col-span-2">I'm a Stone Alert</StoneAlert>
+        </div>
+        <div className="grid grid-cols-4 gap-4">
+          
+        </div>
         <div className="grid grid-cols-4 gap-4 mb-8">
           <RedButton>I'm a Red Button</RedButton>
           <OrangeButton>I'm a Orange Button</OrangeButton>
@@ -44,14 +72,14 @@ export default function App() {
           <OrangeInput type="file" placeholder="I'm Orange Focused Input" />
           <AmberInput type="email" placeholder="I'm Amber Focused Input" />
           <YellowInput type="search" placeholder="I'm Yellow Focused Input" />
-          <LimeInput placeholder="I'm Lime Focused Input" />
-          <GreenInput placeholder="I'm Green Focused Input" />
-          <EmeraldInput placeholder="I'm Emerald Focused Input" />
-          <TealInput placeholder="I'm Teal Focused Input" />
-          <CyanInput placeholder="I'm Cyan Focused Input" />
-          <SkyInput placeholder="I'm Sky Focused Input" />
-          <BlueInput placeholder="I'm Blue Focused Input" />
-          <IndigoInput placeholder="I'm Indigo Focused Input" />
+          <LimeInput type="date" placeholder="I'm Lime Focused Input" />
+          <GreenInput type="time" placeholder="I'm Green Focused Input" />
+          <EmeraldInput type="datetime-local" placeholder="I'm Emerald Focused Input" />
+          <TealInput type="month" placeholder="I'm Teal Focused Input" />
+          <CyanInput type="password" placeholder="I'm Cyan Focused Input" />
+          <SkyInput type="tel" placeholder="I'm Sky Focused Input" />
+          <BlueInput type="url" placeholder="I'm Blue Focused Input" />
+          <IndigoInput type="week" placeholder="I'm Indigo Focused Input" />
           <VioletInput placeholder="I'm Violet Focused Input" />
           <PurpleInput placeholder="I'm Purple Focused Input" />
           <FuchsiaInput placeholder="I'm Fuchsia Focused Input" />
