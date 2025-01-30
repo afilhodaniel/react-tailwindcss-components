@@ -2,11 +2,13 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
-  entry: './src/index.tsx',
+  entry: './src/components/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: 'index.js',
+    library: 'react-tlwd-components',
+    libraryTarget: 'umd',
+    clean: true
   },
   devServer: {
     static: path.join(__dirname, 'dist'),

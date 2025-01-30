@@ -1,6 +1,12 @@
 {
-  "name": "react-tailwindcss-components",
-  "version": "0.0.1",
+  "name": "react-tlwd-components",
+  "description": "React Components styled with TailwindCSS and inspired by Bootstrap Components",
+  "version": "0.0.30",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist", "src"
+  ],
   "scripts": {
     "dev": "webpack serve --open",
     "build": "webpack --mode production"
@@ -23,6 +29,10 @@
     "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "peerDependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   }

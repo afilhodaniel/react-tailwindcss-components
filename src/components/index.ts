@@ -110,3 +110,5 @@ export {
   GrayRadio, ZincRadio,
   NeutralRadio, StoneRadio
 } from './Radios'
+
+import '../style.css'

@@ -1,3 +1,5 @@
+import React from "react";
+
 import {
   AmberButton, BlueButton, CyanButton, EmeraldButton, FuchsiaButton, GrayButton, GreenButton, IndigoButton, LimeButton, NeutralButton, OrangeButton, PinkButton, PurpleButton, RedButton, RoseButton, SkyButton, SlateButton, StoneButton, TealButton, VioletButton, YellowButton, ZincButton,
   RedInput, OrangeInput, AmberInput, YellowInput, LimeInput, GreenInput, EmeraldInput, TealInput, CyanInput, SkyInput, BlueInput, IndigoInput, VioletInput, PurpleInput, FuchsiaInput, PinkInput, RoseInput, SlateInput, GrayInput, ZincInput, NeutralInput, StoneInput,
