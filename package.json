@@ -1,7 +1,7 @@
 {
   "name": "react-tlwd-components",
   "description": "React Components styled with TailwindCSS and inspired by Bootstrap Components",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

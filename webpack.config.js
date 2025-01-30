@@ -8,6 +8,7 @@ module.exports = {
     filename: 'index.js',
     library: 'react-tlwd-components',
     libraryTarget: 'umd',
+    globalObject: 'globalThis',
     clean: true
   },
   devServer: {
