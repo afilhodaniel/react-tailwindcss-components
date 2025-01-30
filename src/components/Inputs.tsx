@@ -11,7 +11,7 @@ function CreateInput({
   } & React.ComponentProps<"input">) => {
     return (
       <input
-        className={`transition-all duration-300 border-2 border-gray-300 text-slate-950 rounded p-2 ${className}`}
+        className={`transition-all duration-300 border border-gray-300 text-slate-950 rounded p-2 ${className}`}
         {...props}
       />
     )

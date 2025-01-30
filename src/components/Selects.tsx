@@ -16,7 +16,7 @@ function CreateSelect({
     return (
       <div className='relative w-full'>
         <select
-          className={`cursor-pointer w-full appearance-none border-2 border-gray-300 text-slate-950 rounded p-2 h-[44px] ${className}`}
+          className={`cursor-pointer w-full appearance-none border border-gray-300 text-slate-950 rounded p-2 h-[42px] ${className}`}
           {...props}
         > 
           {children}

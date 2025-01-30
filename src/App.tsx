@@ -3,18 +3,48 @@ import {
   RedInput, OrangeInput, AmberInput, YellowInput, LimeInput, GreenInput, EmeraldInput, TealInput, CyanInput, SkyInput, BlueInput, IndigoInput, VioletInput, PurpleInput, FuchsiaInput, PinkInput, RoseInput, SlateInput, GrayInput, ZincInput, NeutralInput, StoneInput,
   RedSelect, OrangeSelect,
   RedCheckbox, OrangeCheckbox,
-  RedRadio,
-  OrangeRadio,
+  RedRadio, OrangeRadio,
   RedAlert, OrangeAlert, AmberAlert, YellowAlert, LimeAlert, GreenAlert, EmeraldAlert, TealAlert, CyanAlert, SkyAlert, BlueAlert, IndigoAlert, VioletAlert, PurpleAlert, FuchsiaAlert, PinkAlert, RoseAlert, SlateAlert, GrayAlert, ZincAlert, NeutralAlert, StoneAlert,
-  RedBadge, OrangeBadge, AmberBadge, YellowBadge, LimeBadge, GreenBadge, EmeraldBadge, TealBadge, CyanBadge, SkyBadge, BlueBadge, IndigoBadge, VioletBadge, PurpleBadge, FuchsiaBadge, PinkBadge, RoseBadge, SlateBadge, GrayBadge, ZincBadge, NeutralBadge, StoneBadge
+  RedBadge, OrangeBadge, AmberBadge, YellowBadge, LimeBadge, GreenBadge, EmeraldBadge, TealBadge, CyanBadge, SkyBadge, BlueBadge, IndigoBadge, VioletBadge, PurpleBadge, FuchsiaBadge, PinkBadge, RoseBadge, SlateBadge, GrayBadge, ZincBadge, NeutralBadge, StoneBadge,
+  H1, H3, H2, H4, H5, H6,
+  WhiteCard, RedCard,
+  OrangeCard,
+  AmberCard
 } from "./components";
 
 export default function App() {
   return (
-    <div className="grid grid-cols-8 gap-4">
+    <div className="grid grid-cols-8 p-4 gap-4">
       <div className="col-span-2"></div>
       <div className="col-span-6">
         <div className="grid grid-cols-4 gap-4 mb-8">
+          <H2 classes="col-span-4">Cards</H2>
+          <WhiteCard>
+            I'm a White Card
+          </WhiteCard>
+          <RedCard>
+            I'm a Red Card
+          </RedCard>
+          <OrangeCard>
+            I'm a Orange Card
+          </OrangeCard>
+          <AmberCard>
+            I'm a Amber Card
+          </AmberCard>
+        </div>
+        <div className="grid grid-cols-4 gap-4 mb-8">
+          <H2 classes="col-span-4">Headings</H2>
+          <WhiteCard classes="col-span-4">
+            <H1 classes="mb-2">Heading H1</H1>
+            <H2 classes="mb-2">Heading H2</H2>
+            <H3 classes="mb-2">Heading H3</H3>
+            <H4 classes="mb-2">Heading H4</H4>
+            <H5 classes="mb-2">Heading H5</H5>
+            <H6>Heading H6</H6>
+          </WhiteCard>
+        </div>
+        <div className="grid grid-cols-4 gap-4 mb-8">
+          <H2 classes="col-span-4">Alerts</H2>
           <RedAlert classes="col-span-2">I'm a Red Alert</RedAlert>
           <OrangeAlert classes="col-span-2">I'm a Orange Alert</OrangeAlert>
           <AmberAlert classes="col-span-2">I'm a Amber Alert</AmberAlert>
@@ -40,6 +70,7 @@ export default function App() {
         </div>
         <div className="grid grid-cols-4 gap-4 mb-8">
           <div className="col-span-4">
+            <H2 classes="col-span-4">Badges</H2>
             <RedBadge classes="mr-2 mb-2">Red Badge</RedBadge>
             <OrangeBadge classes="mr-2 mb-2">Orange Badge</OrangeBadge>
             <AmberBadge classes="mr-2 mb-2">Amber Badge</AmberBadge>
@@ -65,6 +96,7 @@ export default function App() {
           </div>
         </div>
         <div className="grid grid-cols-4 gap-4 mb-8">
+          <H2 classes="col-span-4">Buttons</H2>
           <RedButton>I'm a Red Button</RedButton>
           <OrangeButton>I'm a Orange Button</OrangeButton>
           <AmberButton>I'm a Amber Button</AmberButton>
@@ -92,6 +124,7 @@ export default function App() {
           <StoneButton>I'm a Stone Button</StoneButton>
         </div>
         <div className="grid grid-cols-4 gap-4 mb-8">
+          <H2 classes="col-span-4">Forms</H2>
           <RedInput type="number" placeholder="I'm Red Focused Input" />
           <OrangeInput type="file" placeholder="I'm Orange Focused Input" />
           <AmberInput type="email" placeholder="I'm Amber Focused Input" />

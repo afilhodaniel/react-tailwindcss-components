@@ -11,7 +11,7 @@ function CreateAlert({
     children: React.ReactNode
   }) => {
     return (  
-      <div className={`border-2 rounded shadow-md brightness-120 p-3 ${className} ${classes}`}>
+      <div className={`border rounded shadow-md brightness-120 p-3 ${className} ${classes}`}>
         {children}
       </div>
     )

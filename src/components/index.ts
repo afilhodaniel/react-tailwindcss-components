@@ -1,4 +1,19 @@
 export {
+  H1, H2, H3, H4, H5, H6
+} from './Titles'
+
+export {
+  WhiteCard, RedCard, OrangeCard,
+  AmberCard, YellowCard, LimeCard,
+  GreenCard, EmeraldCard, TealCard,
+  CyanCard, SkyCard, BlueCard,
+  IndigoCard, VioletCard, PurpleCard,
+  FuchsiaCard, PinkCard, RoseCard,
+  SlateCard, GrayCard, ZincCard,
+  NeutralCard, StoneCard
+} from './Cards'
+
+export {
   RedAlert, OrangeAlert,
   AmberAlert, YellowAlert,
   LimeAlert, GreenAlert,
